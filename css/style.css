@@ -43,7 +43,7 @@ nav a:hover{
 /********************************************/
 
 
-div.lower div.section,div.section-head{
+div.lower div.section{
     background-color: paleturquoise;
 }
 
@@ -54,6 +54,8 @@ div.section-body .s_aside{
 div.lower{
     background-color: rgb(65, 65, 219);
 }
+
+
 
 footer{
     background-color: rebeccapurple;
@@ -98,8 +100,8 @@ footer{
 }
 
 .section-head{
-    height:70px;
     margin-bottom:30px;
+    font-size: 30px;
 }
 
 .s_body{
@@ -113,6 +115,18 @@ footer{
 
 }
 
-.text_color{
-    color:lightgray;
+.text_paragraph{
+    color:gray;
+    font-size:20px;
+}
+
+.img-container{
+    width:100%;
+    height:200px;
+}
+
+.lower-img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
 }
