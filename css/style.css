@@ -64,7 +64,7 @@ footer{
 }
 
 .properties{
-    width: 1200px;
+    width: 1400px;
     margin: 20px auto;
 }
 
@@ -73,10 +73,22 @@ footer{
 }
 
 .upper{
-    background-color: rgb(241, 241, 150);
-    height: 400px;
+    border: 1px solid black;
+    height: 600px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position:center;
+    border-radius: 20px;
+    position:relative;
 }
 
+.upper-text{
+    width:600px;
+    color:white;
+    position:absolute;
+    left:70px;
+    bottom:100px;
+}
 
 .section-head{
     height:70px;
